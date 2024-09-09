@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #524432;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px;
+    gap: 150px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+    color: #ddd;
+}
+
+nav {
+    background: #886340cb;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: black;
+}
+
+section {
+    padding: 20px;
+}
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+.proyecto {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+img {
+    border-radius: 100%;
+    max-height: 150px;
+    transition: all 0.3s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.h2 {
+    background-color:#6f5d44;
+    max-width: 100%;
+    border-radius: 20px;
+    padding-left: 25px;
+}
+
+#contacto,
+#habilidades,
+#proyectos,
+#sobre-mi {
+    background-color: rgb(255, 255, 255);
+
+}
+
+p {
+    font-size: 20px;
+    font-family:cursive;
+}
+
+table {
+    width: 100%;
+    border-collapse:separate; /* Elimina los espacios entre celdas */
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-radius: 20px;
+    background-color: #5244328f;
+    font-weight: 700;
+}
+
+th {
+    background-color: #524432; /* Color de fondo para encabezado */
+    color: #fff;
+
+}
